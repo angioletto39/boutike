@@ -941,11 +941,6 @@
 			border-color: #000000;
 		}
 
-		.slider .slide img {
-			border-radius: 0.375em;
-			display: inline-block;
-			width: 100%;
-
 		}
 
 		.slider .nav-next,
@@ -953,7 +948,7 @@
 			text-decoration: none;
 			background: #fff;
 			border-radius: 100%;
-			color: #ddd;
+			color: #f2f2f2;
 			cursor: pointer;
 			display: block;
 			font-size: 3em;
@@ -1383,6 +1378,27 @@
 			font-size: 0.8em;
 		}
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 480px) {
     
 	/*
@@ -1450,7 +1466,7 @@
 
 		.slider .nav-next:before,
 		.slider .nav-previous:before {
-			display: block;
+			display: inline;
 			height: 2em;
 			line-height: 2em;
 			margin-top: -1em;
@@ -1577,7 +1593,7 @@
 
 
 .arara{
-	float: right;
+	float: left;
 	
 
 }		
