@@ -927,18 +927,19 @@
 
 	.slider {
 		position: relative;
+        border-color: #000000;        
+        height: 100%;	
+        right: 33px;
+        width: 100%;
 
 	}
 
 		.slider .viewer {
-			position: relative;
-			border-radius: 0.5em;
-			border: solid 1.5em #000000;
-			height: 30em;
-			margin: 0 auto;
-			overflow: hidden;
-			width: 90%;
-			border-color: #000000;
+	
+			height: 3em;			
+			overflow:hidden;
+			width: 100%;
+			
 		}
 
 		.slider .slide img {
