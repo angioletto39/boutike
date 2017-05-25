@@ -943,7 +943,7 @@
 
 		.slider .slide img {
 			border-radius: 0.375em;
-			display: block;
+			display: inline-block;
 			width: 100%;
 
 		}
