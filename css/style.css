@@ -1413,8 +1413,12 @@
 		font-size: 12pt;
 	}
 
-	h2 br, h3 br, h4 br, h5 br, h6 br {
+	h2 br, h3 br, h4 br, h6 br {
 		display: none;
+}
+	h5 br {
+	color: red;
+
 	}
 
 /* Section/Article */
