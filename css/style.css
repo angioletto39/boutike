@@ -96,6 +96,8 @@
 	h5 {
 		font-size: 0.9em;
 		line-height: 1.5em;
+		color: red;
+		font-family: 'Kumar One';
 	}
 
 	h6 {
@@ -602,6 +604,7 @@
 					}
 
 		ul.actions {
+
 			cursor: default;
 			list-style: none;
 			padding-left: 0;
@@ -925,20 +928,20 @@
 
 /* Slider */
 
+   
+  
 	.slider {
-		position: relative;
+		position: middle;
 
 	}
 
 		.slider .viewer {
-			position: relative;
-			border-radius: 0.5em;
-			border: solid 1.5em #000000;
+			position: relative;					
 			height: 30em;
-			margin: 0 auto;
-			overflow: auto;
-			width: 90%;
-			border-color: #000000;
+			
+			overflow: ;
+			width: 50em;
+			
 		}
 
 		}
@@ -1439,13 +1442,13 @@
 /* Slider */
 
 	.slider .viewer {
-		border-width: 1em;
+		border-width: 2em;
 		width: 100%;
 	}
 
 	.slider .slide img {
 		border-radius: 0.375em;
-		display:  inline-block;
+		display:  block;
 		width: 100%;
 	}
 
@@ -1459,19 +1462,19 @@
 		top: 0;
 		vertical-align: bottom;
 		width: 100%;
-		z-index: 1;
+		z-index: 2;
 
 
 		}
 
 		.slider .nav-next:before,
 		.slider .nav-previous:before {
-			display: inline;
+			display: block;
 			height: 2em;
 			line-height: 2em;
 			margin-top: -1em;
 			padding: 0 1em;
-			top: 50%;
+			top: 80%;
 			width: 100%;
 		}
 
